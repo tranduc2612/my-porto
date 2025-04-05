@@ -39,16 +39,16 @@ export default function Skills() {
 							deliver high-quality solutions.
 						</p>
 					</div>
-					<div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-8">
+					<div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-6 md:gap-8">
 						<div className="flex flex-col items-center gap-2">
 							<CodepenIcon className="w-12 h-12" />
 							<div className="font-medium">Web Development</div>
 						</div>
 						<div className="flex flex-col items-center gap-2">
 							<WebhookIcon className="w-12 h-12" />
-							<div className="font-medium">REST API</div>
+							<div className="font-medium">Frontend Development</div>
 						</div>
-						<div className="flex flex-col items-center gap-2">
+						{/* <div className="flex flex-col items-center gap-2">
 							<ActivityIcon className="w-12 h-12" />
 							<div className="font-medium">Machine Learning</div>
 						</div>
@@ -57,7 +57,7 @@ export default function Skills() {
 							<div className="font-medium">
 								Mobile Development
 							</div>
-						</div>
+						</div> */}
 						{/* <div className="flex flex-col items-center gap-2">
 					<CloudIcon className="w-12 h-12" />
 					<div className="font-medium">Cloud Computing</div>
@@ -74,6 +74,7 @@ export default function Skills() {
 					<PackageIcon className="w-12 h-12" />
 					<div className="font-medium">Product Management</div>
 				</div> */}
+				
 					</div>
 				</section>
 			</Wrapper>
@@ -161,4 +162,10 @@ function MobileIcon(props) {
 			<line x1="12" x2="12" y1="18" y2="18" />
 		</svg>
 	);
+}
+
+function FrontEnd(){
+	return (
+		<></>
+	)
 }

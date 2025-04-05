@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import PropTypes from "prop-types";
+import { NICKNAME } from "@/ultis/constant";
 
 export default function ProjectCard({ project, index, activeCategory }) {
 	return (
@@ -23,7 +24,7 @@ export default function ProjectCard({ project, index, activeCategory }) {
 						}}>
 						<Image
 							src={project.thumbnail}
-							alt="Alvalens"
+							alt={NICKNAME}
 							layout="fill"
 							objectFit="cover"
 							placeholder="blur"

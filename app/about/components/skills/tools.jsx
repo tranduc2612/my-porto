@@ -22,20 +22,14 @@ export default function Tools() {
 			</h2>
 			<p className="text-gray-500 text-center tracking-wider md:px-">
 				<span className="text-black font-bold">Visual Studio Code</span>{" "}
-				| <span className="text-black font-medium">Jet Brains</span> |{" "}
+				| <span className="text-black font-medium">Visual Studio</span> |{" "}
 				<span className="text-black font-bold">Git</span> |{" "}
 				<span className="text-black font-bold">Github</span> |{" "}
+				<span className="text-black font-medium">Gitlab</span> |{" "}
 				<span className="text-black font-medium">Figma</span> |{" "}
-				<span className="text-black font-medium">Adobe Photoshop</span>{" "}
-				|{" "}
-				<span className="text-black font-medium">
-					Adobe Premiere Pro
-				</span>{" "}
-				|{" "}
-				<span className="text-black font-medium">
-					Adobe After Effect
-				</span>{" "}
-				|{" "}
+				<span className="text-black font-medium">Grok 3</span> |{" "}
+				<span className="text-black font-medium">ChatGPT</span> |{" "}
+				<span className="text-black font-medium">Github copilot</span> |{" "}
 			</p>
 		</motion.div>
 	);

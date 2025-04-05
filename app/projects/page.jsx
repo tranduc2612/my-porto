@@ -6,9 +6,9 @@ import Button from "@/components/Button";
 import Image from "next/image";
 
 // images
-import ReactChat1 from "@/public/image/projects/web/trivia/trivia1.png";
-import ReactChat2 from "@/public/image/projects/web/trivia/trivia2.png";
-import ReactChat3 from "@/public/image/projects/web/trivia/trivia3.png";
+import ReactChat1 from "@/public/image/projects/web/ql-do-an/ql-do-an1.png";
+import ReactChat2 from "@/public/image/projects/web/ql-do-an/ql-do-an6.png";
+import ReactChat3 from "@/public/image/projects/web/ql-do-an/ql-do-an20.png";
 import ProjectAll from "@/public/image/projects.png";
 
 import Hr from "@/components/Hr";
@@ -17,10 +17,12 @@ import Projects from "@/json/data.json";
 import FixedButon from "@/components/FixedButton";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
+import { NICKNAME } from "@/ultis/constant";
 
 const category = {
 	1: "Web Development",
-	2: "AI & Machine Learning",
+	2: "Game",
+	3: "Mobile Development",
 	9: "Other",
 };
 
@@ -46,7 +48,7 @@ export default function Page() {
 							className="bg-slate-300 rounded-sm h-[400px] md:h-[600px] w-[80vw] md:w-[30vw] grayscale hover:grayscale-0 ">
 							<Image
 								src={ProjectAll}
-								alt="Alvalens"
+								alt={NICKNAME}
 								layout="fill"
 								objectFit="cover"
 								placeholder="blur"
@@ -100,7 +102,7 @@ export default function Page() {
 									className="w-full h-full shadow-lg">
 									<Image
 										src={ReactChat1}
-										alt="Alvalens"
+										alt={NICKNAME}
 										layout="fill"
 										objectFit="cover"
 										placeholder="blur"
@@ -124,7 +126,7 @@ export default function Page() {
 									className="w-full h-full shadow-lg ">
 									<Image
 										src={ReactChat3}
-										alt="Alvalens"
+										alt={NICKNAME}
 										layout="fill"
 										objectFit="cover"
 										placeholder="blur"
@@ -150,7 +152,7 @@ export default function Page() {
 									className="w-full h-full shadow-lg">
 									<Image
 										src={ReactChat2}
-										alt="Alvalens"
+										alt={NICKNAME}
 										layout="fill"
 										objectFit="cover"
 										placeholder="blur"
@@ -174,24 +176,21 @@ export default function Page() {
 							type: "spring",
 						}}>
 						<h2 className="text-2xl font-bold tracking-wider mb-3">
-							Generative Trivia
+							Website Project Process Management
 						</h2>
 						<p className="text-gray-600 text-justify title text-lg">
-							A generative trivia website built with Next.js, Firebase,
-							NextAuth, Google OAuth, and TypeScript. Users can generate trivia
-							questions for predefined school subjects and answer them with a
-							unique interactive input style. The application supports user
-							authentication with Google and stores data in Firestore. You can
-							see the source code of this project on my github account or
-							preview the project by clicking the button below.
+							A Project Process Management website built with ReactJS, MySQL, and ASP.NET. 
+							This platform allows students to track their progress while working on their projects. 
+							It also helps teachers manage students more easily, including scheduling, reviewing, commenting, grading, and more. 
+							I hope this project will minimize errors and make it easier for both students and teachers to manage the graduation project process.
 						</p>{" "}
 						<div className="mt-3">
 							<Button variation="primary">
-								<Link href="projects/trivia">More</Link>
+								<Link href="projects/project-process-management">More</Link>
 							</Button>
 							<Button variation="secondary">
 								<a
-									href="https://generative-trivia.vercel.app/"
+									href="#"
 									target="_blank"
 									rel="noopener noreferrer">
 									Preview

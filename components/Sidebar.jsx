@@ -27,19 +27,19 @@ const Sidebar = () => {
 				className="flex flex-col justify-evenly items-center h-full  text-gray-50">
 				<li data-menuanchor="home" className="active">
 					<button onClick={() => handleMoveToSection(1)}>
-						<FontAwesomeIcon icon={faHome} className="text-xl" />
+						<FontAwesomeIcon icon={faHome} className="text-xl cursor-pointer" />
 					</button>
 				</li>
 				<li data-menuanchor="about">
 					<button onClick={() => handleMoveToSection(2)}>
-						<FontAwesomeIcon icon={faUser} className="text-xl" />
+						<FontAwesomeIcon icon={faUser} className="text-xl cursor-pointer" />
 					</button>
 				</li>
 				<li data-menuanchor="projects">
 					<button onClick={() => handleMoveToSection(3)}>
 						<FontAwesomeIcon
 							icon={faFolderOpen}
-							className="text-xl"
+							className="text-xl cursor-pointer"
 						/>
 					</button>
 				</li>
@@ -47,7 +47,7 @@ const Sidebar = () => {
 					<button onClick={() => handleMoveToSection(4)}>
 						<FontAwesomeIcon
 							icon={faEnvelope}
-							className="text-xl"
+							className="text-xl cursor-pointer"
 						/>
 					</button>
 				</li>
