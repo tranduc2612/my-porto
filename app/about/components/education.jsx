@@ -97,11 +97,10 @@ export default function Education() {
 								</div>
 								<div className="flex items-center gap-2">
 									<p className="text-justify">
-										Studying Information Technology at the University of Transport and Communications has been one of the most meaningful chapters of my life. 
-										It not only equipped me with solid technical knowledge and problem-solving skills but also gave me unforgettable memories with my classmates and friends. 
-										I am especially grateful to all the professors and lecturers who patiently guided and inspired me throughout the journey. 
-										Their dedication and passion have motivated me to keep learning and striving for excellence. 
-										Thanks to the strong foundation built during my years at university, I feel more confident and determined than ever to pursue my career in the field of technology.
+										Studying Information Technology at the University of Transport and Communications has been a meaningful experience. 
+										It gave me strong technical skills and unforgettable memories with classmates and friends. 
+										I&lsquo;m grateful to the professors who guided and inspired me, motivating me to keep learning and improving. 
+										With the solid foundation from university, I&lsquo;m more confident and determined to pursue my career in technology.
 									</p>
 								</div>
 								{/* add gpa in a style */}
@@ -144,14 +143,13 @@ export default function Education() {
 								</div>
 								<div>
 									<h3 className="font-medium">
-										Top 30 | Jun 2022
+										TOP 5
 									</h3>
 									<p className="text-sm">
-										Programming Competition At University
+										The Best Score in Final Project  
 									</p>
 								</div>
 							</div>
-							
 						</div>
 					</div>
 				</div>

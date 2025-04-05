@@ -74,7 +74,7 @@ const MyPage = () => {
 											delay: 0.3,
 											type: "spring",
 										}}>
-										Full Stack Developer
+										Software Engineer
 									</motion.h1>
 									<motion.p
 										className="title text-md  2xl:text-xl mt-4 tracking-wider text-gray-500 leading-[1.7rem]"
@@ -84,12 +84,9 @@ const MyPage = () => {
 											delay: 0.4,
 											type: "spring",
 										}}>
-										A junior fullstack developer who
-										currently focused on Web Development.
-										Other than that, I also interested in
-										UX/UI Design, Mobile and AI Development.
-										I love to learn new things and always
-										open to new opportunities.
+										I am a junior full-stack developer currently focused on web development. 
+										I am especially interested in frontend development. 
+										I love learning new things and am always open to new opportunities.
 									</motion.p>
 									<motion.div
 										className="buttons flex flex-row justify-center items-center space-x-4 mt-10"
