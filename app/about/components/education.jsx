@@ -45,7 +45,7 @@ export default function Education() {
 					</p>
 				</div>
 				<div className="grid gap-8 md:gap-12">
-					<div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+					<div className="grid grid-cols-1 md:grid-cols-1 gap-4">
 						<div className="px-5">
 							<div className="font-medium text-lg">
 								2020 - 2024
@@ -57,8 +57,22 @@ export default function Education() {
 								<h3 className="text-md font-normal mb-3">
 									K61 | Information Technology
 								</h3>
-								<div className="gap-4 mb-4 flex items-stretch md:h-[300px] xl:h-[400px]">
-									<div className="flex-[1] transition-all duration-300 ease-in-out hover:flex-[3] group">
+								{/* add gpa in a style */}
+								<div className="flex flex-wrap gap-2 mb-3 text-sm">
+									<div className="bg-gray-300 text-black px-2 py-1 rounded-2xl">
+										GPA: 3.3 out of 4
+									</div>
+								</div>
+								<div className="flex items-center gap-2 mb-3">
+									<p className="text-justify">
+										Studying Information Technology at the University of Transport and Communications has been a meaningful experience. 
+										It gave me strong technical skills and unforgettable memories with classmates and friends. 
+										I&lsquo;m grateful to the professors who guided and inspired me, motivating me to keep learning and improving. 
+										With the solid foundation from university, I&lsquo;m more confident and determined to pursue my career in technology.
+									</p>
+								</div>
+								<div className="gap-4 mb-4 flex items-stretch md:h-[500px] xl:h-[800px]">
+									<div className="flex-[1] transition-all duration-300 ease-in-out hover:flex-[2] group">
 										<Image
 											src={Me4}
 											width={400}
@@ -67,7 +81,7 @@ export default function Education() {
 											className="rounded-lg w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300 ease-in-out"
 										/>
 									</div>
-									<div className="flex-[1] transition-all duration-300 ease-in-out hover:flex-[3] group">
+									<div className="flex-[1] transition-all duration-300 ease-in-out hover:flex-[2] group">
 										<Image
 											src={Me5}
 											width={400}
@@ -76,7 +90,7 @@ export default function Education() {
 											className="rounded-lg w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300 ease-in-out"
 										/>
 									</div>
-									<div className="flex-[1] transition-all duration-300 ease-in-out hover:flex-[3] group">
+									<div className="flex-[1] transition-all duration-300 ease-in-out hover:flex-[2] group">
 										<Image
 											src={Me6}
 											width={400}
@@ -85,7 +99,7 @@ export default function Education() {
 											className="rounded-lg w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300 ease-in-out"
 										/>
 									</div>
-									<div className="flex-[1] transition-all duration-300 ease-in-out hover:flex-[3] group">
+									<div className="flex-[1] transition-all duration-300 ease-in-out hover:flex-[2] group">
 										<Image
 											src={Me7}
 											width={400}
@@ -95,23 +109,9 @@ export default function Education() {
 										/>
 									</div>
 								</div>
-								<div className="flex items-center gap-2">
-									<p className="text-justify">
-										Studying Information Technology at the University of Transport and Communications has been a meaningful experience. 
-										It gave me strong technical skills and unforgettable memories with classmates and friends. 
-										I&lsquo;m grateful to the professors who guided and inspired me, motivating me to keep learning and improving. 
-										With the solid foundation from university, I&lsquo;m more confident and determined to pursue my career in technology.
-									</p>
-								</div>
-								{/* add gpa in a style */}
-								<div className="flex flex-wrap gap-2 mt-4 text-sm">
-									<div className="bg-gray-300 text-black px-2 py-1 rounded-2xl">
-										GPA: 3.3 out of 4
-									</div>
-								</div>
 							</div>
 						</div>
-						<div className="flex flex-col justify-start px-5 md:px-0">
+						{/* <div className="flex flex-col justify-start px-5 md:px-0">
 							<h2 className="font-semibold text-xl mt-7">
 								Achievements
 							</h2>
@@ -150,7 +150,7 @@ export default function Education() {
 									</p>
 								</div>
 							</div>
-						</div>
+						</div> */}
 					</div>
 				</div>
 			</section>
