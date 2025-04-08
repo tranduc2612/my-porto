@@ -154,49 +154,27 @@ function Page(props) {
 								</p>
 							</div>
 						)}
-						{data.code && typeof data === 'string' ? (
-							<div>
+						{
+							data.code && data.code.map((item,index)=>(
+							<div key={index}>
 								<h2 className="uppercase font-normal text-lg tracking-[8px] text-neutral-400">
-								Source Code
+									Source Code {index + 1}
 								</h2>
 								<p className="text-2xl font-normal text-neutral-900">
-								<a
-									href={data.code}
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									Github{" "}
-									<FontAwesomeIcon
-									icon={faGithub}
-									className="ml-3"
-									/>
-								</a>
+									<a
+										href={item}
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										Github{" "}
+										<FontAwesomeIcon
+										icon={faGithub}
+										className="ml-3"
+										/>
+									</a>
 								</p>
 							</div>
-						) : <>
-							{
-								data.code?.length && data.code.map((item,index)=>(
-								<div key={index}>
-									<h2 className="uppercase font-normal text-lg tracking-[8px] text-neutral-400">
-										Source Code {index + 1}
-									</h2>
-									<p className="text-2xl font-normal text-neutral-900">
-										<a
-											href={item}
-											target="_blank"
-											rel="noopener noreferrer"
-										>
-											Github{" "}
-											<FontAwesomeIcon
-											icon={faGithub}
-											className="ml-3"
-											/>
-										</a>
-									</p>
-								</div>
-								))
-							}
-						</>
+							))
 						}
 					</div>
 					<div className="flex justify-start items-start flex-col mb-5 ">

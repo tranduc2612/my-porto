@@ -96,12 +96,12 @@
         "https://github.com/tranduc2612/frontend_foody_nextjs.git",
         "https://github.com/tranduc2612/backend_foody_mcrs.git"
       ],
-      "thumbnail": "/image/projects/web/yummly/yummly4.png",
+      "thumbnail": "/image/projects/web/yummly/yummly4.PNG",
       "images": [
-        "/image/projects/web/yummly/yummly1.png",
-        "/image/projects/web/yummly/yummly2.png",
-        "/image/projects/web/yummly/yummly3.png",
-        "/image/projects/web/yummly/yummly4.png"
+        "/image/projects/web/yummly/yummly1.PNG",
+        "/image/projects/web/yummly/yummly2.PNG",
+        "/image/projects/web/yummly/yummly3.PNG",
+        "/image/projects/web/yummly/yummly4.PNG"
       ],
       "tech": [
         "NextJs",
@@ -120,13 +120,13 @@
       ],
       "year": "2024",
       "preview": "",
-      "code": "https://github.com/tranduc2612/chat-realtime-vue3.git",
-      "thumbnail": "/image/projects/web/chat-realtime/chat-realtime1.png",
+      "code": ["https://github.com/tranduc2612/chat-realtime-vue3.git"],
+      "thumbnail": "/image/projects/web/chat-realtime/chat-realtime1.PNG",
       "images": [
-        "/image/projects/web/chat-realtime/chat-realtime1.png",
-        "/image/projects/web/chat-realtime/chat-realtime2.png",
-        "/image/projects/web/chat-realtime/chat-realtime3.png",
-        "/image/projects/web/chat-realtime/chat-realtime4.png"
+        "/image/projects/web/chat-realtime/chat-realtime1.PNG",
+        "/image/projects/web/chat-realtime/chat-realtime2.PNG",
+        "/image/projects/web/chat-realtime/chat-realtime3.PNG",
+        "/image/projects/web/chat-realtime/chat-realtime4.PNG"
       ],
       "tech": [
         "VueJs",
@@ -145,7 +145,7 @@
       ],
       "year": "2023",
       "preview": "",
-      "code": "https://github.com/tranduc2612/BE_blog_BTLLTWeb",
+      "code": ["https://github.com/tranduc2612/BE_blog_BTLLTWeb"],
       "thumbnail": "/image/projects/web/typerite/typerite10.png",
       "images": [
         "/image/projects/web/typerite/typerite10.png",
@@ -177,14 +177,14 @@
       ],
       "year": "2022",
       "preview": "",
-      "code": "https://github.com/tranduc2612/Case4_Music",
-      "thumbnail": "/image/projects/web/music-player/music-player1.png",
+      "code": ["https://github.com/tranduc2612/Case4_Music"],
+      "thumbnail": "/image/projects/web/music-player/music-player1.PNG",
       "images": [
-        "/image/projects/web/music-player/music-player4.png",
-        "/image/projects/web/music-player/music-player5.png",
-        "/image/projects/web/music-player/music-player1.png",
-        "/image/projects/web/music-player/music-player2.png",
-        "/image/projects/web/music-player/music-player3.png"
+        "/image/projects/web/music-player/music-player4.PNG",
+        "/image/projects/web/music-player/music-player5.PNG",
+        "/image/projects/web/music-player/music-player1.PNG",
+        "/image/projects/web/music-player/music-player2.PNG",
+        "/image/projects/web/music-player/music-player3.PNG"
       ],
       "tech": [
         "HTML",
@@ -204,18 +204,18 @@
       ],
       "year": "2022",
       "preview": "",
-      "code": "https://github.com/tranduc2612/Case3_BuyHouse",
-      "thumbnail": "/image/projects/web/muaban/muaban2.png",
+      "code": ["https://github.com/tranduc2612/Case3_BuyHouse"],
+      "thumbnail": "/image/projects/web/muaban/muaban2.PNG",
       "images": [
-        "/image/projects/web/muaban/muaban1.png",
-        "/image/projects/web/muaban/muaban2.png",
-        "/image/projects/web/muaban/muaban3.png",
-        "/image/projects/web/muaban/muaban4.png",
-        "/image/projects/web/muaban/muaban5.png",
-        "/image/projects/web/muaban/muaban6.png",
-        "/image/projects/web/muaban/muaban7.png",
-        "/image/projects/web/muaban/muaban8.png",
-        "/image/projects/web/muaban/muaban9.png"
+        "/image/projects/web/muaban/muaban1.PNG",
+        "/image/projects/web/muaban/muaban2.PNG",
+        "/image/projects/web/muaban/muaban3.PNG",
+        "/image/projects/web/muaban/muaban4.PNG",
+        "/image/projects/web/muaban/muaban5.PNG",
+        "/image/projects/web/muaban/muaban6.PNG",
+        "/image/projects/web/muaban/muaban7.PNG",
+        "/image/projects/web/muaban/muaban8.PNG",
+        "/image/projects/web/muaban/muaban9.PNG"
       ],
       "tech": [
         "HTML",
@@ -234,12 +234,12 @@
       ],
       "year": "2022",
       "preview": "https://tranduc2612.github.io/PingPongGame",
-      "code": "https://github.com/tranduc2612/PingPongGame",
-      "thumbnail": "/image/projects/web/ping-pong/ping-pong1.png",
+      "code": ["https://github.com/tranduc2612/PingPongGame"],
+      "thumbnail": "/image/projects/web/ping-pong/ping-pong1.PNG",
       "images": [
-        "/image/projects/web/ping-pong/ping-pong1.png",
-        "/image/projects/web/ping-pong/ping-pong2.png",
-        "/image/projects/web/ping-pong/ping-pong3.png"
+        "/image/projects/web/ping-pong/ping-pong1.PNG",
+        "/image/projects/web/ping-pong/ping-pong2.PNG",
+        "/image/projects/web/ping-pong/ping-pong3.PNG"
       ],
       "tech": [
         "HTML",
@@ -258,17 +258,17 @@
       ],
       "year": "2021",
       "preview": "https://tranduc2612.github.io/sell-tree/",
-      "code": "https://github.com/tranduc2612/sell-tree.git",
-      "thumbnail": "/image/projects/web/sell-trees/sell-tree1.png",
+      "code": ["https://github.com/tranduc2612/sell-tree.git"],
+      "thumbnail": "/image/projects/web/pronia/pronia1.PNG",
       "images": [
-        "/image/projects/web/pronia/pronia5.png",
-        "/image/projects/web/pronia/pronia6.png",
-        "/image/projects/web/pronia/pronia1.png",
-        "/image/projects/web/pronia/pronia2.png",
-        "/image/projects/web/pronia/pronia3.png",
+        "/image/projects/web/pronia/pronia5.PNG",
+        "/image/projects/web/pronia/pronia6.PNG",
+        "/image/projects/web/pronia/pronia1.PNG",
+        "/image/projects/web/pronia/pronia2.PNG",
+        "/image/projects/web/pronia/pronia3.PNG",
         "/image/projects/web/pronia/pronia4.png",
-        "/image/projects/web/pronia/pronia7.png",
-        "/image/projects/web/pronia/pronia8.png"
+        "/image/projects/web/pronia/pronia7.PNG",
+        "/image/projects/web/pronia/pronia8.PNG"
       ],
       "tech": [
         "HTML",
